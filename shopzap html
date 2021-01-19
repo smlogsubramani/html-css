@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<title>
+    SHOPZAP SUPPORT
+</title>
+<head>
+   <link rel="stylesheet" href="link.css">
+   
+    <h1>
+       SHOPZAP SUPPORT AND CARE
+    </h1>
+    <body>
+        <div class="wrapper1">
+            <img src="img/support and care.PNG" alt="support and care webpage">
+        </div>
+           </body>
+
+    <div class="text">
+   <p>
+      
+       We have created this hub ,to help you with whatyou want excatly.
+       Our team will help you in all the languages so that you can be with 
+       your lingustic language.For more help contact us to the mentioned 
+       mobile number or mail us:shopezapsupport@gmail.com
+    
+
+   </p>
+    </div>
+   <a class="button" href="">read more</a>
+
+   <!--labels-->
+    
+   <form class="my form">
+       <div class="form-group">
+    <label>email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</lalbel>
+    <input type="email"name="email">
+    </div>
+    <br>
+    <div class="form-group">
+    <label>phone number</label>
+    <input type="number"name="mobile number">
+    </div>
+        <br>
+    <div class="form-group">
+    <label>queries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <textarea name="message"></textarea>
+    </div>
+    <br>
+    <div>
+        <input class="button1" type="submit">        
+    </div>
+    </form>
+       
+    
+<!--categories-->
+
+   <div class="categories">       
+    <h3>
+        GET TO KNOW US
+    </h3>
+    <ul>
+<li>
+<a href=>ABOUT US</a>
+</li><li>
+<a href=>CARRERS</a>
+</li><li>
+<a href=>PRESS RELEASES
+</li><li>
+<a href=>SHOPZAP CARRERS</a>
+</li><li>
+<a href=>GIFT A SMILE</a>
+</li>
+    </ul>    
+   </div>
+   
+   <div class="categories1">
+    <h2>
+        LEARN HOW TO
+    </h2>
+    <ul>
+<li>
+<a href=>WHERES MY ORDER</a>
+</li><li>
+<a href=>PAYING FOR YOUR ORDER</a>
+</li><li>
+<a href=>DELIVERY CHARGES
+</li><li>
+<a href=>PAYS AND REFUNDS</a>
+</li><li>
+<a href=>MANAGE YOUR ACCOUNT DETAILS</a>
+</li>
+    </ul>
+</div>
+<div class="categories3">       
+    <h4>
+       CONNECT US WITH
+    </h4>
+    <ul>
+<li>
+<a href=>FACEBOOK</a>
+</li><li>
+<a href=>INSTAGRAM</a>
+</li><li>
+<a href=>TWITTER
+</li><li>
+<a href=>LINKED IN</a>
+</li><li>
+<a href=>WHATSAPP</a>
+</li>
+    </ul>    
+   </div>
+</div>
+<div class="categories4">       
+    <h5>
+       LET US HELP YOU
+    </h5>
+    <ul>
+<li>
+<a href=>COVID 19 AND SHOPZAP</a>
+</li><li>
+<a href=>YOU ACCOUNTS</a>
+</li><li>
+<a href=>RETURN CENTRE
+</li><li>
+<a href=>PURCHASE PROTECTION</a>
+</li><li>
+<a href=>HELP</a>
+</li>
+    </ul>    
+   </div>
+
+</head>
+</html>
