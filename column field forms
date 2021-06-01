@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>product</title>
+    <style>
+        input[type=button]  {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-left: 420px;
+        }
+        input[type=reset] {
+        
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-left: -280px;
+
+        }
+        
+        }
+        .container1.col-lg-4{
+            
+            text-align: right;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+           
+            
+
+        }
+        .col-lg-4{
+            text-align: center;
+            text-align: left;
+            font-size:large;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>
+        PRODUCT
+    </h1>
+    <form>
+        <div class="container">
+            <br>
+            <br>
+            
+            <div class="row">
+                
+              <div class="col-lg-4">
+                  <label for="fname">PRODUCT ID</label><br>
+                  <input type="text" id="fname" value="">
+                  
+                </div>
+                
+                
+                <div class="col-lg-4">
+                  <label for="lname">PRODUCT NAME</label><br>
+                  <input type="text" id="lname" value="">
+                </div>
+                
+                <div class="col-lg-4">
+                    <label for="lname">STOCK</label><br>
+                    <input type="text" id="lname" value="">
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        
+            <div class="row">
+                <div class="col-lg-4"><br><br>
+                    <label for="lname">PRICE</label><br>
+                    <input type="text" id="lname" value="">
+                </div>
+                <div class="col-lg-4"><br><br>
+                    <label for="lname">IMAGE URL</label><br>
+                    <input type="text" id="lname" value=""> 
+                        
+                </div>
+                <div class="col-lg-4"><br><br>
+                      
+                </div>
+            </div>
+            
+            
+            
+        </div>
+      </form>
+    <div class="container1">
+            
+        <div class="row"> 
+            <div class="col-lg-4"> <br><br><br>
+                <input type="button" value="back"><br>
+            </div>
+            <div class="col-lg-4"><br><br><br>
+
+            </div>
+            <div class="col-lg-4"> <br><br><br>
+                <input type="reset" value="create product"><br>
+            </div> 
+            </div>
+        </div>   
+    </div>
+     
+     
+    
+</body>
+</html>
