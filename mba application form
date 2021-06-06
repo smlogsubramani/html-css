@@ -4,32 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
+    <link  rel="stylesheet" href="msec.css">
     <title>MBA form</title>
     <style>
     h1{
         text-align: center;
     } 
-    textarea {
-        display: block;
-            margin-top: -50px;
-            margin-left: 230px;
-            width: 50%;
-            height: 100%;;
-        }
-    #instruct{
-        font-size: small;
-    }
-    #note{
+    .row{
 
-        text-align: center;
+    margin-top: 2%;
     }
+    
         
 
     </style>
 </head>
 <body>
-    <h1>MBA APPLICATION FORM</h1><br><br>
+    <h1>MBA APPLICATION FORM</h1>
     <form class="my form">
     <div class="container">    
         <div class="row">
@@ -38,142 +29,179 @@
                 <input type="text"  id="name" value="">
             </div>
             <div class="row">
-                <div class="col-lg-6"><br>
-                    <label for="dob"><br>2.  Date of birth<br>(As per hsc certificate)</label>
+                <div class="col-sm-6">
+                    <label for="dob">2.  Date of birth</label>
+                    <label for="dob">(As per hsc certificate)</label>
                     <input type="date" value="2021-06-02">
                 </div>
-                <div class="col-lg-6"><br><br><br>
-                    <label for="sex">3.  Sex</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="col-sm-6">
+                    <label for="sex">3.  Sex</label>
                     <input type="radio" name="male"   value=""  /> male
                     <input type="radio" name="female" value="" /> female
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6"><br><br><br>
-                    <label for="community">4.  Community</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="dc" value=""/>dc &nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="dc" value=""/>bc &nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="dc" value=""/>mbc&dc &nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="dc" value=""/>sc &nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="dc" value=""/>st &nbsp;&nbsp;&nbsp;
+                <div class="col-sm-2">
+                    <label for="community">4.  Community</label>
                 </div>
-                <div class="col-lg-6"><br><br><br>
+                <div class="col-sm-6">
+                    <input type="checkbox" name="dc" value=""/>dc 
+                    <input type="checkbox" name="dc" value=""/>bc 
+                    <input type="checkbox" name="dc" value=""/>mbc&dc 
+                    <input type="checkbox" name="dc" value=""/>sc 
+                    <input type="checkbox" name="dc" value=""/>st 
+                </div>
+                <div class="col-sm-4">
                     <label for="instruct">(attested photo copy of the Community Certificate should be enclosed)</label>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6"><br><br>
-                    <label for="nationality">5. Nationality</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="col-sm-6">
+                    <label for="nationality">5. Nationality</label>
+                </div>
+                <div class="col-sm-6">
                     <input type="text" name="nationality" id="nationality">
                 </div>
-                <div class="col-lg-6"><br><br>
-                    <label for="religion">6. Religion</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="religion">6. Religion</label>
+                </div>
+                <div class="col-sm-6">
                     <input type="text" id="religion" name="religion">                    
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6"><br><br>
+                <div class="col-lg-2">
                     <label for="mothertoungue">7. Mother toungue</label>
+                </div>
+                <div class="col-lg-4">
                     <input type="text" name="mothertoungue" id="mothertoungue">
                 </div>
-                <div class="col-lg-6"><br><br>
-                    <label for="pob">8. Place of birth</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="col-lg-2">
+                    <label for="pob">8. Place of birth</label>
+                </div>
+                <div class="col-lg-4">
                     <input type="text" id="pob" name="pob">                    
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6"><br><br>
-                    <label for="faname">9. Father Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="col-lg-2">
+                    <label for="faname">9. Father Name</label>
+                </div>
+                <div class="col-lg-4">
                     <input type="text" name="faname" id="faname">
                 </div>
-                <div class="col-lg-6"><br><br>
-                    <label for="fo">10. Father occupation</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="col-lg-2">
+                    <label for="fo">10. Father occupation</label>
+                </div>
+                <div class="col-lg-4">
                     <input type="text" id="fo" name="fo">                    
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6"><br><br>
-                    <label for="maname">11. Mother Name</label>&nbsp;&nbsp;
+                <div class="col-lg-2">
+                    <label for="maname">11. Mother Name</label>
+                </div>
+                <div class="col-lg-4">
                     <input type="text" name="maname" id="maname">
                 </div>
-                <div class="col-lg-6"><br><br>
-                    <label for="mothertoungue">12. Mothers occupation</label>&nbsp;
+                <div class="col-lg-2">
+                    <label for="mothertoungue">12. Mothers occupation</label>
+                </div>
+                <div class="col-lg-4">
                     <input type="text" id="mo" name="mo">                    
                 </div>
             </div>
-            <div class="row"><br><br>
-                <div class="col"><br><br>
-                <label for="annual income">13. Annual Income</label>
-                <input type="text" name="annual income" id="annual income" size="50">
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="annual income">13. Annual Income</label>
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" name="annual income" id="annual income" >
                 </div>
             </div>
-            <div class="row"><br><br>
-                <div class="col-lg-12"><br><br>
+            <div class="row">
+                <div class="col-lg-6">
                 <label for="adress for communication">14. Address for communication </label>
+                </div>
+                <div class="col-lg-6">
                 <textarea id="address for communication" ></textarea>
                 </div>
             </div>
-            <div class="row"><br><br>
-                <div class="col-lg-3"><br><br>
+            <div class="row">
+                <div class="col-sm-3">
                 <label>15. Phone:</label>
                 </div>
-                <div class="col-lg-3"><br><br>
+                <div class="col-sm-1">
                     <label for="office">office</label>
-                    <input type="number" name="office" id="office" size="12" maxlength="10">
                 </div>
-                <div class="col-lg-3"><br><br>
+                <div class="col-sm-2">
+                    <input type="number" name="office" id="office" >
+                </div>
+                <div class="col-sm-1">
                     <label for="res">Res</label>
-                    <input type="number" name="res" id="res" size="12" maxlength="10">
+                </div>
+                <div class="col-sm-2">
+                    <input type="number" name="res" id="res" >
                 </div>    
-                <div class="col-lg-3"><br><br>
+                <div class="col-sm-1">
                     <label for="mobile">Mobile</label>
-                    <input type="number" name="mobile" id="mobile" size="12" maxlength="10"> 
+                </div>
+                <div class="col-sm-2">
+                    <input type="number" name="mobile" id="mobile" > 
                 </div>       
                 </div>
             </div>
             <div class="row">
-                <div class="col"><br><br>
-                    <label for="email">16. E mail</label>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="email" id="email" size="40">
+                <div class="col-lg-6">
+                    <label for="email">16. E mail</label>
+                </div>
+                <div class="col-lg-6">    
+                    <input type="email" id="email" >
                 </div>               
             </div>
             <div class="row">
-                <div class="col"><br><br>
-                    <label for="qdws">17. Qualifying Degree With Subject</label>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="text" name="qdws" id="qdws" size="60">
+                <div class="col-lg-6">
+                    <label for="qdws">17. Qualifying Degree With Subject</label>
+                </div>
+                <div class="col-lg-6">
+                    <input type="text" name="qdws" id="qdws" >
                 </div>               
             </div>
             <div class="row">
-                <div class="col"><br><br>
-                    <label for="clgstd">18. College Studied/Studying</label>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="text" name="clgstd" id="clgstd" size="60">
+                <div class="col-sm-6">
+                    <label for="clgstd">18. College Studied/Studying</label>
+                </div>
+                <div class="col-sm-6"> 
+                    <input type="text" name="clgstd" id="clgstd" >
                 </div>               
             </div>
             <div class="row">
-                <div class="col-lg-4"><br><br>
-                    <label for="univname">19. Name of the university</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="col-lg-4">
+                    <label for="univname">19. Name of the university</label>
                     <label for="instruct" id="instruct" >(If the student is from anyother university other than the madrasa university he/she should submit the eligibility certificate from university of madras at the time of admission)</label>
                 </div>
-                <div class="col-lg-8"><br><br>
-                    <input type="text" name="univname" id="univname" size="60">
+                <div class="col-lg-8">
+                    <input type="text" name="univname" id="univname" >
                 </div>
                 <div class="row">
-                    <div class="col-lg-4"><br><br>
-                        <label for="precent">20.Precentage of marks obtained upto pre-final semester/year in qualifying examination</label>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <label for="instruct" id="instruct" >(Attested photocopies of the marksheets should be enclosed)<br>(Grades should be converted into an appropriate percentage)</label>
+                    <div class="col-lg-4">
+                        <label for="precent">20.Precentage of marks obtained upto pre-final semester/year in qualifying examination</label>
+                        <label for="instruct" id="instruct" >(Attested photocopies of the marksheets should be enclosed)(Grades should be converted into an appropriate percentage)</label>
                     </div>
-                    <div class="col-lg-8"><br><br>
+                    <div class="col-lg-8">
                         <input type="number" onchange="setTwoNumberDecimal" min="0" max="100" step="0.01" value="0.00" />
                     </div>                              
             </div>
             <div class="row">
-                <div class="col-lg-4"><br><br>
+                <div class="col-lg-4">
                     <label for="pass the dregree">21. a) Passed the degree in </label>
                     <label for="instruct" id="instruct">(Candidates who have completed their degree should enclose the attested photo copy of the degree certificate/provinsional Certificate)</label>
 
                 </div>
-                <div class="col-lg-8"><br><br>
-                    <div class="row"><br><br>
+                <div class="col-lg-8">
+                    <div class="row">
                         <div class="col-lg-4">
                         <label for="month">Month</label>
                         </div>
@@ -181,7 +209,7 @@
                         <input type="text" name="Month" id="month">
                         </div>
                     </div>
-                    <div class="row"><br><br>
+                    <div class="row">
                         <div class="col-lg-4">
                         <label for="">year</label>
                         </div>
@@ -189,7 +217,7 @@
                         <input type="text" name="year" id="year">
                         </div>
                     </div>
-                    <div class="row"><br><br>
+                    <div class="row">
                         <div class="col-lg-4">
                         <label for="degreecertificate">Degree Certificate</label>
                         </div>
@@ -197,10 +225,10 @@
                         <input type="radio" /> Enclosed
                         </div>
                         <div class="col-lg-4">
-                        <input type="radio" /> Notenclosed
+                        <input type="radio" /> Not enclosed
                         </div>
                     </div>
-                    <div class="row"><br><br>
+                    <div class="row">
                         <div class="col-lg-4">
                         <label for="provinsional">Provinsional Certificate</label>
                         </div>
@@ -208,18 +236,18 @@
                         <input type="radio" /> Enclosed
                         </div>
                         <div class="col-lg-4">
-                        <input type="radio" /> Notenclosed
+                        <input type="radio" /> Not enclosed
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row"><br>
-                <div class="col-lg-6"><br><br>
+            <div class="row">
+                <div class="col-lg-6">
                     <label for="appearing">b) Appearing for the final examination in:</label>
                     <label for="instruct" id="instruct">Candidates who are appearing for the final examination should sumbit their bonofide certificate from the head of the institution,along with the application form</label>
                 </div>
-                <div class="col-lg-6"><br><br>
-                    <div class="row"><br><br>
+                <div class="col-lg-6">
+                    <div class="row">
                         <div class="col-lg-4">
                             <label for="month">Month</label>
                         </div>
@@ -227,7 +255,7 @@
                             <input type="text">
                         </div>
                     </div>
-                    <div class="row"><br><br>
+                    <div class="row">
                         <div class="col-lg-4">
                             <label for="year">Year</label>
                         </div>
@@ -239,23 +267,23 @@
 
                 </div>
             </div>
-            <div class="row"><br><br>
+            <div class="row">
                 <div class="col-lg-6">
                     <label for="proficient">22. State if any proficient in any extra ciricular activities:</label>
                 </div>
                 <div class="col-lg-6">
-                    <input type="text" size="50">
+                    <input type="text" >
                 </div>
             </div>
-            <div class="row"><br><br>
+            <div class="row">
                 <div class="col-lg-6">
                     <label for="work">23. Work Experience (if any)</label>
                 </div>
                 <div class="col-lg-6">
-                    <input type="text" size="50">
+                    <input type="text" >
                 </div>
             </div>
-            <div class="row"><br><br>
+            <div class="row">
               <label for="Note" id="note">Note: Candidates if selected for the admission they are asked to take enough number of attested photocopies of all the certificates,so the college office will not be distrubed for originals during the course of study.</label>   
             </div>
         </div>
