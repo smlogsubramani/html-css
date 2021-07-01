@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="bloglogin.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Garuda blog</title>
+    <!--bluma cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- foundation-float.min.css: Compressed CSS with legacy Float Grid -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-float.min.css" integrity="sha256-4ldVyEvC86/kae2IBWw+eJrTiwNEbUUTmN0zkP4luL4=" crossorigin="anonymous">
+
+    <!-- foundation-prototype.min.css: Compressed CSS with prototyping classes -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-prototype.min.css" integrity="sha256-BiKflOunI0SIxlTOOUCQ0HgwXrRrRwBkIYppEllPIok=" crossorigin="anonymous">
+
+    <!-- foundation-rtl.min.css: Compressed CSS with right-to-left reading direction -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-rtl.min.css" integrity="sha256-F+9Ns8Z/1ZISonBbojH743hsmF3x3AlQdJEeD8DhQsE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--bluma cdn-->
+
+
+</head>
+<body>
+    <div class="background">
+    <div class="block">
+        <article class="message is-large is-right ">
+            <div class="message-header">
+                Garuda blogs
+            </div>
+        </article>
+    </div>
+   
+       
+    
+    <div class="container">       
+            <div class="row">                
+                <div class="col-lg-6">
+                    <div class="login-page">
+                        <div class="form">
+                            <div class="space"></div>
+                            <form class="registration-form">
+                                <h1 class="registerhead">Creat an account</h1>
+                                <input type="text" placeholder="FIRST NAME "/>
+                                <input type="text" placeholder="EMAIL"/>
+                                <input type="text" placeholder="PASSWORD"/>
+                                <button class="btn">SIGN UP</button>
+                                <p class="bottomtxt">Already have an account ? <a href="#">Sign in </a> </p>
+                            </form>
+            
+                            <form class="login-form">
+                                <h1 class="loginhead">Login</h1>
+                                <p class="logintxt">By continuing, you agree to our <a href="#" >User Agreement</a> and <a href="#">Privacy Policy. </a></a></p>
+                                <input type="text" placeholder="USERNAME"/>
+                                <input type="password" placeholder="PASSWORD"/>
+                                <button class="btn">login</button>
+                               <div class="sodivder">
+                                   <span class="divider">--------------------</span>
+                                   <span class="divider">OR</span>
+                                   <span class="divider">--------------------</span>
+                               </div>
+                                <button class="btn"><i class="fa fa-google" >   CONTINUE WITH GOOGLE</i></button> 
+                                <button class="btn"><i class="fa fa-facebook">    CONTINUE WITH FACEBOOK</i></button>
+                                
+                                
+                                <p class="bottomtxt">Not Registered? <a href="#">Register now</a></p>
+                                
+                            </form>
+                      
+                            <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+                            <script>
+                                $('.bottomtxt a').click(function(){
+                                    $('form').animate({height:"toggle",opacity:"toggle"},"slow");
+                                });
+                            </script>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    
+                    <img class="right-image" src="content-image1.PNG" alt="blog">
+                    
+                </div>
+            </div>
+    </div>
+</div>
+ 
+    
+</body>
+</html>
