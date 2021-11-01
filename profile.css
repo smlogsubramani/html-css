@@ -1,0 +1,85 @@
+.profile-head{
+    margin-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.image{
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 100px;
+}
+.username{
+    margin-top: 20px;
+    
+}
+.profile-photo{
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+.info-box{
+    margin-top: 20px;
+    height: 100%;
+    width: 99%;
+    border: 1px solid black;
+    font-size: large;
+}
+.info-details{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+  
+}
+.edit{
+margin-left: 79%;    
+margin-top: 5%;
+background-color: #20F23C;
+border-radius: 10%;
+font-weight: 500;
+}
+.space1{
+    padding-top: 10%;
+}
+.wallet-info{
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+}
+.wallet-balance{
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+}
+.grenos{
+    margin-left: 70%;      
+    background-color: #20F23C;
+    border-radius: 10%;
+    margin-top: 1%;
+    font-weight: 500;
+}
+.card-name{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.cardname-box{
+
+    margin-top: 10px;
+}
+
+.notify{
+    font-size: small;
+    color: rgb(64, 206, 64);
+}
+.plants-planted{
+    font-size: larger;
+    font-weight: 600;
+   font-family: monospace;
+   text-align: center;
+   margin-left: 30%;
+    
+}
